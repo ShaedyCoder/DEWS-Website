@@ -208,7 +208,7 @@ export default function Layout({ children, currentPageName }) {
       </header>
 
       {/* Main Content */}
-      <main className={currentPageName === 'Home' ? '' : 'pt-20'}>
+      <main className={currentPageName === 'Home' ? '' : 'pt-24'}>
         {children}
       </main>
 
@@ -323,4 +323,5 @@ export default function Layout({ children, currentPageName }) {
       </footer>
     </div>
   );
+
 }
