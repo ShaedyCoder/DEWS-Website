@@ -69,7 +69,7 @@ export default function Home() {
           ))}
         </div>
 
-        <div className="container mx-auto px-6 lg:px-12 relative z-10">
+        <div className="container mx-auto px-6 lg:px-12 relative z-10 pt-8">
           <div className="max-w-4xl">
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
@@ -324,3 +324,4 @@ export default function Home() {
   );
 
 }
+
