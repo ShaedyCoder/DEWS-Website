@@ -47,7 +47,7 @@ export default function Home() {
             backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
           }} />
         </div>
-        
+
         {/* Animated water droplets */}
         <div className="absolute inset-0 overflow-hidden">
           {[...Array(6)].map((_, i) => (
@@ -55,8 +55,8 @@ export default function Home() {
               key={i}
               className="absolute w-2 h-2 bg-teal-400/20 rounded-full"
               initial={{ y: -20, x: Math.random() * 100 + '%', opacity: 0 }}
-              animate={{ 
-                y: '100vh', 
+              animate={{
+                y: '100vh',
                 opacity: [0, 0.5, 0],
               }}
               transition={{
@@ -71,7 +71,7 @@ export default function Home() {
 
         <div className="container mx-auto px-6 lg:px-12 relative z-10 pt-8">
           <div className="max-w-4xl">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
@@ -81,7 +81,7 @@ export default function Home() {
               <span className="text-[#C6E832] text-base font-medium tracking-wide">Singapore-Based Water Solutions</span>
             </motion.div>
 
-            <motion.h1 
+            <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
@@ -93,17 +93,17 @@ export default function Home() {
               </span>
             </motion.h1>
 
-            <motion.p 
+            <motion.p
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg md:text-xl text-slate-300 mb-8 max-w-2xl leading-relaxed"
             >
-              DEWS delivers desalinated freshwater and demineralised water solutions that keep your operations running efficiently. 
+              DEWS delivers desalinated freshwater and demineralised water solutions that keep your operations running efficiently.
               From maritime vessels to industrial facilities, we provide the water quality your processes demand.
             </motion.p>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
@@ -124,11 +124,11 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Hero Image Placeholder Note */}
+        {/* Hero Image */}
         <div className="absolute bottom-0 right-0 w-1/2 h-full hidden lg:block">
           <div className="absolute inset-0 bg-gradient-to-l from-transparent via-slate-900/50 to-slate-900" />
-          <img 
-            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/696d9f184eda294465cb2a7e/8e8785799_venti-views-1cqIcrWFQBI-unsplash.jpg" 
+          <img
+            src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/696d9f184eda294465cb2a7e/8e8785799_venti-views-1cqIcrWFQBI-unsplash.jpg"
             alt="Aerial view of vessel operations"
             className="w-full h-full object-cover opacity-60"
           />
@@ -160,7 +160,7 @@ export default function Home() {
       {/* Services */}
       <section className="py-16 lg:py-24 bg-slate-900">
         <div className="container mx-auto px-6 lg:px-12">
-          <motion.div 
+          <motion.div
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
@@ -171,7 +171,7 @@ export default function Home() {
               Our Core Services
             </h2>
             <p className="text-lg text-slate-300">
-              From barge-based freshwater supply to comprehensive water treatment systems, 
+              From barge-based freshwater supply to comprehensive water treatment systems,
               we provide solutions tailored to your operational needs.
             </p>
           </motion.div>
@@ -195,7 +195,7 @@ export default function Home() {
             ))}
           </div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -214,7 +214,7 @@ export default function Home() {
       {/* Value Proposition */}
       <section className="pt-20 lg:pt-28 pb-10 lg:pb-14">
         <div className="container mx-auto px-6 lg:px-12">
-          <motion.div 
+          <motion.div
             initial="initial"
             whileInView="animate"
             viewport={{ once: true }}
@@ -225,7 +225,7 @@ export default function Home() {
               How Quality Water Creates Value
             </h2>
             <p className="text-lg text-slate-600 leading-relaxed">
-              Whether you need freshwater for drinking and domestic use, or demineralised water for sensitive industrial processes, 
+              Whether you need freshwater for drinking and domestic use, or demineralised water for sensitive industrial processes,
               the right water quality directly impacts your operational efficiency and equipment longevity.
             </p>
           </motion.div>
@@ -259,13 +259,13 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <img 
-                src="https://images.unsplash.com/photo-1605745341112-85968b19335b?w=800&auto=format&fit=crop&q=80" 
+              <img
+                src="https://images.unsplash.com/photo-1605745341112-85968b19335b?w=800&auto=format&fit=crop&q=80"
                 alt="Water supply barge operations"
                 className="rounded-2xl shadow-xl w-full"
               />
             </motion.div>
-            
+
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -276,16 +276,17 @@ export default function Home() {
                 Desalinated Water Supply for Marine Operations
               </h2>
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                At the heart of our business, we supply desalinated freshwater to barges, vessels, and offshore installations. 
-                Our fleet of water tankers, equipped with onboard desalination plants, delivers up to 1,000 metric tons of 
+                At the heart of our business, we supply desalinated freshwater to barges, vessels, and offshore installations.
+                Our fleet of water tankers, equipped with onboard desalination plants, delivers up to 1,000 metric tons of
                 freshwater daily across Singapore and the region.
               </p>
               <p className="text-slate-600 mb-8 leading-relaxed">
-                This reliable supply ensures your crew and operations have access to quality freshwater, 
+                This reliable supply ensures your crew and operations have access to quality freshwater,
                 regardless of location or circumstances.
               </p>
               <Link to={createPageUrl('Fleet')}>
-                <Button className="bg-slate-900 hover:bg-slate-800">
+                {/* FIX: add text-white so it doesn't go black on dark button */}
+                <Button className="bg-slate-900 hover:bg-slate-800 text-white">
                   View Our Fleet
                   <ArrowRight className="ml-2 w-4 h-4" />
                 </Button>
@@ -308,7 +309,7 @@ export default function Home() {
               Ready to Discuss Your Water Requirements?
             </h2>
             <p className="text-xl text-slate-200 mb-8">
-              Whether you need regular freshwater supply or a custom water treatment solution, 
+              Whether you need regular freshwater supply or a custom water treatment solution,
               our team is here to help.
             </p>
             <Link to={createPageUrl('Contact')}>
@@ -322,6 +323,4 @@ export default function Home() {
       </section>
     </div>
   );
-
 }
-
