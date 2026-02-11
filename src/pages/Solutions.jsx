@@ -17,10 +17,10 @@ export default function Solutions() {
     {
       icon: Ship,
       title: "Desalinated Water Supply",
-      description: "Our core business - delivering up to 1,000 MT of freshwater daily to vessels and offshore installations via our purpose-built water tankers with onboard desalination plants.",
+      description: "Our core business - delivering up to 900 MT of freshwater daily to vessels and offshore installations via our purpose-built water tankers with onboard desalination plants.",
       features: [
         "Fleet-based freshwater delivery",
-        "Up to 1,000 MT daily capacity",
+        "Up to 900 MT daily capacity",
         "Suitable for drinking and domestic use",
         "Reliable maritime supply"
       ],
@@ -167,6 +167,7 @@ export default function Solutions() {
   );
 
 }
+
 
 
 
