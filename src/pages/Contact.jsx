@@ -54,12 +54,12 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email",
-      details: ["enquiries@dews.sg"]
+      details: ["sales@dews.sg"]
     },
     {
       icon: Phone,
       title: "Phone",
-      details: ["+65 XXXX XXXX"]
+      details: ["+65 6294 8066"]
     }
   ];
 
@@ -128,7 +128,6 @@ export default function Contact() {
               <div className="mt-12 p-6 bg-slate-50 rounded-2xl">
                 <h3 className="font-semibold text-slate-900 mb-3">Operating Hours</h3>
                 <p className="text-slate-600 mb-2">Monday – Friday: 9:00 AM – 6:00 PM</p>
-                <p className="text-slate-600 mb-4">Saturday: 9:00 AM – 1:00 PM</p>
                 <p className="text-sm text-slate-500">
                   For urgent operational enquiries outside these hours, please call our 24/7 operations line.
                 </p>
