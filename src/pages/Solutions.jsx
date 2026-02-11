@@ -128,7 +128,7 @@ export default function Solutions() {
                   
                   <Link to={createPageUrl(solution.page)}>
                     <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white !text-white group-hover:bg-[#2E3B8E]">
-                      Learn More
+                      Learn More Test
                       <ArrowRight className="ml-2 w-4 h-4" />
                     </Button>
                   </Link>
@@ -167,3 +167,4 @@ export default function Solutions() {
   );
 
 }
+
