@@ -93,7 +93,7 @@ export default function Solutions() {
               Our Solutions
             </h2>
             <p className="text-lg text-slate-600">
-              Choose the water solution that fits your operational requirements
+      
             </p>
           </motion.div>
 
@@ -167,4 +167,5 @@ export default function Solutions() {
   );
 
 }
+
 
