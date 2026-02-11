@@ -265,7 +265,7 @@ export default function Contact() {
                       <Button 
                         type="submit" 
                         size="lg"
-                        className="w-full bg-[#2E3B8E] hover:bg-[#253075] h-14 text-lg"
+                        className="w-full bg-[#2E3B8E] hover:bg-[#253075] h-14 text-lg text-white !text-white"
                         disabled={isSubmitting}
                       >
                         {isSubmitting ? (
